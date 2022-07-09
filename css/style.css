@@ -24,14 +24,27 @@
   margin-left: 24px;
 }
 
-nav {
+section {
   margin-top: 40px;
 }
-
+.navbar-brand {
+  max-width: 80%;
+}
+.navbar {
+  margin-left: 85px;
+  list-style: none;
+  margin-top: 2px;
+}
 .nav-item .nav-link {
   color: #abacac;
+  margin-right: 22px;
+  padding: 0px;
+  font-size: 16px;
 }
 
-section {
-  margin-top: 64px;
+.navbar .nav-item .btn {
+  color: #ffffff;
+  background-color: #ffac70;
+  padding: 10px 25px;
+  border-radius: 15px;
 }
