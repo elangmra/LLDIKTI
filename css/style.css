@@ -1,8 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
+html {
+  height: 100%;
+}
 * {
   font-family: "Inter", sans-serif;
   margin: 0;
+}
+body {
+  background: linear-gradient(
+    245.04deg,
+    rgba(83, 178, 198, 0.33) 29.95%,
+    rgba(113, 132, 230, 0) 108.91%
+  );
 }
 
 .section {
@@ -19,11 +29,8 @@
   font-style: normal;
   color: #ffffff;
 }
-
-.socmed-icon a {
-  margin-left: 24px;
+.socmed-icon {
 }
-
 section {
   margin-top: 40px;
 }
@@ -47,4 +54,46 @@ section {
   background-color: #ffac70;
   padding: 10px 25px;
   border-radius: 15px;
+}
+
+.header {
+  margin-top: 80px;
+}
+.header .headline {
+  margin-top: 24px;
+}
+.header .hero img {
+  max-width: 110%;
+}
+
+.header .welcome {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #000000;
+}
+.header h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+
+  color: #3899ad;
+}
+.header h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #e2a75e;
+}
+.header .description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #a8a8a8;
 }
