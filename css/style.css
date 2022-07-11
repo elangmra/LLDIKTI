@@ -14,7 +14,7 @@ body {
     rgba(113, 132, 230, 0) 108.91%
   );
 }
-
+/* Section Top Nav */
 .section {
   background-color: #64b7c8;
   padding: 15px 0 15px 0;
@@ -34,21 +34,35 @@ body {
 section {
   margin-top: 40px;
 }
+
+/* Navbar */
 .navbar-brand {
   max-width: 80%;
 }
 .navbar {
-  margin-left: 85px;
+  margin-left: 78px;
   list-style: none;
   margin-top: 2px;
 }
+.navbar .dropdown-item {
+  color: #838383;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
 .nav-item .nav-link {
   color: #abacac;
   margin-right: 22px;
   padding: 0px;
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
 }
-
+.navbar .active {
+  color: #3899ad;
+  border-bottom: 2px solid #3899ad;
+}
 .navbar .nav-item .btn {
   color: #ffffff;
   background-color: #ffac70;
@@ -56,6 +70,7 @@ section {
   border-radius: 15px;
 }
 
+/* Hero */
 .header {
   margin-top: 80px;
 }
@@ -96,4 +111,87 @@ section {
   font-size: 16px;
 
   color: #a8a8a8;
+}
+.header .btn {
+  background-color: #64b7c8;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 12px 40px;
+}
+
+.header .btn img {
+  margin-left: 12px;
+  max-width: 15%;
+}
+
+.header .btn-play {
+  margin-left: 26px;
+  color: #6f6f6f;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 50%;
+  background-color: #ffac70;
+  text-decoration-line: underline;
+  padding: 16px 14px 20px 22px;
+}
+.header .btn-play-text {
+  color: #6f6f6f;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 12px;
+  text-decoration-line: underline;
+}
+
+.header .btn-play img:hover {
+  transform: scale(1.1);
+}
+
+/* Info Section */
+.information p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #ababab;
+}
+.information h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+
+  color: #468a98;
+}
+
+.information span {
+  color: #ababab;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+.information .dropdown {
+  margin-top: 8px;
+}
+.information .dropdown .btn {
+  background-color: #fcfcfc;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 8px 28px;
+  text-align: center;
+  border-radius: 10px;
+  color: #ababab;
+}
+
+.information .btn-category {
+  margin-left: 25px;
 }
