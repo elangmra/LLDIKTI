@@ -30,12 +30,18 @@ body {
   color: #ffffff;
 }
 .socmed-icon {
+  /* Kalo mau rata kanan */
+  /* padding-right: 16px; */
 }
 section {
   margin-top: 40px;
 }
 
 /* Navbar */
+.navbar-div {
+  /* Kalo mau rata kanan */
+  /* margin-left: 23px; */
+}
 .navbar-brand {
   max-width: 80%;
 }
@@ -43,6 +49,10 @@ section {
   margin-left: 78px;
   list-style: none;
   margin-top: 2px;
+}
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
 }
 .navbar .dropdown-item {
   color: #838383;
@@ -68,6 +78,7 @@ section {
   background-color: #ffac70;
   padding: 10px 25px;
   border-radius: 15px;
+  margin-right: 0;
 }
 
 /* Hero */
@@ -79,6 +90,7 @@ section {
 }
 .header .hero img {
   max-width: 110%;
+  margin-left: 14px;
 }
 
 .header .welcome {
@@ -181,17 +193,182 @@ section {
 .information .dropdown {
   margin-top: 8px;
 }
+.information .dropdown .btn-group {
+  margin-right: 24px;
+}
+
 .information .dropdown .btn {
   background-color: #fcfcfc;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 14px;
   padding: 8px 28px;
   text-align: center;
   border-radius: 10px;
   color: #ababab;
 }
+.information .dropdown .category-btn {
+  padding: 8px 20px;
+}
+.information form {
+  position: relative;
+}
+.information form i {
+  color: #ababab;
+  position: absolute;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-width: 40px;
+  top: 20px;
+  right: 204px;
+}
+.information form input {
+  padding-left: 30px;
+  max-width: 225px;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 8px;
+}
 
-.information .btn-category {
-  margin-left: 25px;
+.information form input::placeholder {
+  color: #ababab;
+}
+
+/* Card Section */
+.card-section {
+  /* margin-left: 74px !important; */
+}
+.card {
+  margin-top: 34px !important;
+  border-radius: 20px !important;
+  padding-left: 14px !important;
+  padding-right: 14px !important;
+  width: 14rem !important;
+  margin-left: 18px !important;
+}
+.card .card-img-top {
+  margin-top: 14px;
+}
+.card .card-img-top:hover {
+  transform: scale(1.03);
+}
+.card-section span {
+  background-color: #f79b58;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  left: 180px;
+  top: 20px;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+.card-section .card-body {
+  padding: 16px 0;
+}
+.card-section .card-body h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+
+  color: #353535;
+}
+.card-section .card-body a {
+  background: #64b7c8;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: 26px;
+  padding-left: 27px;
+  padding-right: 25px;
+  color: #ffffff;
+}
+
+.card-section .btn-more img {
+  margin-left: 2px;
+}
+
+.pagination {
+  margin-top: 34px;
+  padding-bottom: 35px;
+}
+.pagination .page-link {
+  background-color: transparent;
+  color: #ffffff;
+  border: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+.pagination .arrow {
+  padding-top: 3px;
+}
+.pagination .active {
+  color: #ffffff;
+  background-color: #f79b58 !important;
+  border-color: #f79b58 !important;
+  border-radius: 5px;
+}
+
+.pagination span {
+  color: #ffffff;
+}
+.bg-card {
+  background-color: rgba(83, 180, 200, 0.45);
+  border-radius: 50px;
+  width: 1140px;
+  height: 555px;
+  bottom: 0;
+  display: block;
+  z-index: -1;
+}
+
+/* Layanan ONline Section */
+.layanan-online {
+  margin-top: 84px;
+}
+.layanan-online p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #acadbe;
+}
+.layanan-online h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+
+  color: #468a98;
+}
+.layanan-online .card {
+  height: 16rem !important;
+}
+.layanan-online .card-img-top {
+  width: 35%;
+  margin-top: 32px;
+  margin-left: 6px;
+}
+.layanan-online .card-body {
+  padding-left: 6px;
+}
+.layanan-online .card-body p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  /* padding-bottom: 32px ; */
+  color: #acadbe;
+}
+.layanan-online .card-body h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 8px;
+  color: #3c3c3c;
 }
