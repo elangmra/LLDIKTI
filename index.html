@@ -1,498 +1,583 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <!-- Section Socmed Top -->
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-9">
-            <div class="row">
-              <div class="col-md-auto col-sm-6 contact">
-                <img src="assets/icons/Phone.svg" alt="phone" srcset="" />
-                <span> 022-727-5630</span>
-              </div>
-              <div class="col-md-auto col-sm-6 contact">
-                <img src="assets/icons/mail.svg" alt="mail" srcset="" />
-                <span>informasi@lldikti4.or.id</span>
-              </div>
-              <div class="col-md-auto col-sm-6 contact">
-                <img src="assets/icons/Whatsapp.svg" alt="whatsapp" srcset="" />
-                <span> WhatsApp</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-3 socmed-icon d-flex justify-content-center">
-            <div class="row">
-              <div class="col-md-auto col-sm-6 s-icon">
-                <a href="">
-                  <img src="assets/icons/tw-icon.svg" alt="" srcset=""
-                /></a>
-              </div>
-              <div class="col-md-auto col-sm-6 s-icon">
-                <a href="">
-                  <img src="assets/icons/ig-icon.svg" alt="" srcset=""
-                /></a>
-              </div>
-              <div class="col-md-auto col-sm-6 s-icon">
-                <a href="">
-                  <img src="assets/icons/fb-icon.svg" alt="" srcset=""
-                /></a>
-              </div>
 
-              <div class="col-md-auto col-sm-6 s-icon">
-                <a href="">
-                  <img src="assets/icons/yt-icon.svg" alt="" srcset=""
-                /></a>
-              </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <!-- Section Socmed Top -->
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-9">
+          <div class="row">
+
+            <div class="col-md-auto col-sm-6 contact">
+              <img src="assets/icons/Phone.svg" alt="phone" srcset="" />
+              <span> 022-727-5630</span>
+            </div>
+            <div class="col-md-auto col-sm-6 contact">
+              <img src="assets/icons/mail.svg" alt="mail" srcset="" />
+              <span>informasi@lldikti4.or.id</span>
+            </div>
+            <div class="col-md-auto col-sm-6 contact">
+              <img src="assets/icons/Whatsapp.svg" alt="whatsapp" srcset="" />
+              <span> WhatsApp</span>
+            </div>
+            <div class=" col-sm-6 logo">
+              <a href="/index.html" class="navbar-brand">
+                <img src="./assets/images/Logo.png" alt="" />
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-3 socmed-icon d-flex justify-content-center">
+          <div class="row">
+            <div class="col-md-auto col-sm-6 s-icon">
+              <a href="">
+                <img src="assets/icons/tw-icon.svg" alt="" srcset="" /></a>
+            </div>
+            <div class="col-md-auto col-sm-6 s-icon">
+              <a href="">
+                <img src="assets/icons/ig-icon.svg" alt="" srcset="" /></a>
+            </div>
+            <div class="col-md-auto col-sm-6 s-icon">
+              <a href="">
+                <img src="assets/icons/fb-icon.svg" alt="" srcset="" /></a>
+            </div>
+
+            <div class="col-md-auto col-sm-6 s-icon">
+              <a href="">
+                <img src="assets/icons/yt-icon.svg" alt="" srcset="" /></a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Navbar -->
-    <section class="nav" data-aos="fade-down">
-      <div class="container">
-        <div class="row">
-          <div class="col-4">
-            <a href="/index.html" class="navbar-brand">
-              <img src="./assets/images/Logo.png" alt="" />
-            </a>
-          </div>
+  <!-- Navbar -->
+  <section class="nav  " data-aos="fade-down">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <a href="/index.html" class="navbar-brand">
+            <img src="./assets/images/Logo.png" alt="" />
+          </a>
+        </div>
+        <button class="  btn-toggler d-xl-none " type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" id="btn-toggler">
+          <span class="toggler-icon"></span>
+        </button>
 
-          <div class="col-8 col-md-auto col-sm-5 navbar-div">
-            <ul class="navbar">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link active dropdown-toggle"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  href=""
-                  >Home</a
-                >
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
+        <div class="col-8 col-md-auto col-sm-5 navbar-div collapse  d-lg-block" id="collapseExample">
+          <ul class="navbar ">
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false" href="">Home</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="#">Profil LLDIKTI 4</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Profil Kepala LLDIKTI 4</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Info Berita</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Layanan Informasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><img src="assets/icons/search-icon.svg" alt="" /></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><img src="assets/icons/darkmode-icon.svg" alt="" /></a>
+            </li>
+            <li class="nav-item">
+              <a href="/login.html" class="btn nav-link">Kontak & Pengaduan</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero Header -->
+  <section class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-7 headline">
+          <p class="welcome">Halo, Selamat Datang</p>
+          <h2 class="text-headline">
+            Lembaga Layanan <br />
+            Pendidikan Tinggi Wilayah 4
+          </h2>
+          <h3>Jawa Barat dan Banten</h3>
+          <p class="description">
+            LLDIKTI mempunyai tugas membantu peningkatan mutu penyelenggaraan
+            pendidikan tinggi baik perguruan tinggi negeri maupun perguruan
+            tinggi swasta.
+          </p>
+          <a href="" class="btn">Explore Website <img src="assets/icons/Arrow.svg" alt="" />
+          </a>
+          <a href="" class="btn-play"><img class="play" src="assets/icons/play-btn.svg" alt="" />
+          </a>
+          <a href="" class="btn-play-text">Watch Videos</a>
+        </div>
+        <div class="col-5 hero d-block">
+          <img src="./assets/images/casual-life-3d.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Information Section -->
+  <section class="information" data-aos="fade-up" data-aos-duration="300">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <p class="text-center">Info Terbaru</p>
+          <h2 class="text-center">Informasi LLDIKTI Wilayah 4</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="row">
+            <div class="col-12">
+              <img src="assets/icons/clarity_sort-by-line.svg" alt="" />
+              <span>Sort By</span>
+            </div>
+            <div class="dropdown col-md-8" role="group" aria-label="Button group with nested dropdown">
+              <div class="btn-group">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Terbaru
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item" href="Newest">Terbaru</a></li>
+                  <li><a class="dropdown-item" href="Oldest">Terlama</a></li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button class="btn dropdown-toggle category-btn" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Kategori
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item" href="News">Berita</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">Profil LLDIKTI 4</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Profil Kepala LLDIKTI 4</a
-                    >
+                    <a class="dropdown-item" href="Announcement">Pengumuman</a>
                   </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Info Berita</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Layanan Informasi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href=""
-                  ><img src="assets/icons/search-icon.svg" alt=""
-                /></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href=""
-                  ><img src="assets/icons/darkmode-icon.svg" alt=""
-                /></a>
-              </li>
-              <li class="nav-item">
-                <a href="/login.html" class="btn nav-link"
-                  >Kontak & Pengaduan</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Hero Header -->
-    <section class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-7 headline">
-            <p class="welcome">Halo, Selamat Datang</p>
-            <h2 class="text-headline">
-              Lembaga Layanan <br />
-              Pendidikan Tinggi Wilayah 4
-            </h2>
-            <h3>Jawa Barat dan Banten</h3>
-            <p class="description">
-              LLDIKTI mempunyai tugas membantu peningkatan mutu penyelenggaraan
-              pendidikan tinggi baik perguruan tinggi negeri maupun perguruan
-              tinggi swasta.
-            </p>
-            <a href="" class="btn"
-              >Explore Website <img src="assets/icons/Arrow.svg" alt="" />
-            </a>
-            <a href="" class="btn-play"
-              ><img class="play" src="assets/icons/play-btn.svg" alt="" />
-            </a>
-            <a href="" class="btn-play-text">Watch Videos</a>
-          </div>
-          <div class="col-5 hero d-block">
-            <img src="./assets/images/casual-life-3d.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Information Section -->
-    <section class="information" data-aos="fade-up" data-aos-duration="300">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-12">
-            <p class="text-center">Info Terbaru</p>
-            <h2 class="text-center">Informasi LLDIKTI Wilayah 4</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-10">
-            <div class="row">
-              <div class="col-12">
-                <img src="assets/icons/clarity_sort-by-line.svg" alt="" />
-                <span>Sort By</span>
               </div>
-              <div
-                class="dropdown col-md-8"
-                role="group"
-                aria-label="Button group with nested dropdown"
-              >
-                <div class="btn-group">
-                  <button
-                    class="btn dropdown-toggle"
-                    type="button"
-                    id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Terbaru
-                  </button>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="dropdownMenuButton2"
-                  >
-                    <li><a class="dropdown-item" href="Newest">Terbaru</a></li>
-                    <li><a class="dropdown-item" href="Oldest">Terlama</a></li>
-                  </ul>
-                </div>
-                <div class="btn-group">
-                  <button
-                    class="btn dropdown-toggle category-btn"
-                    type="button"
-                    id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Kategori
-                  </button>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="dropdownMenuButton2"
-                  >
-                    <li><a class="dropdown-item" href="News">Berita</a></li>
-                    <li>
-                      <a class="dropdown-item" href="Announcement"
-                        >Pengumuman</a
-                      >
-                    </li>
-                  </ul>
+            </div>
+            <form class="d-flex col-md-4 justify-content-end" role="search">
+              <i class="fa fa-search icon"></i>
+              <input class="form-control me-2" type="search" placeholder="Cari Informasi" aria-label="Search" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="row justify-content-center card-section">
+        <div class="card col-6 col-md-3 col-lg-2">
+          <img src="./assets/images/LLDIKTI-img.png" class="card-img-top" alt="..." />
+          <span class="position-absolute translate-middle badge">
+            Berita
+          </span>
+          <div class="card-body">
+            <h5 class="card-title">
+              Undangan Technical Meeting Gebyar LLDIKTI Wilayah IV
+            </h5>
+
+            <a href="#" class="btn btn-more">Baca Selengkapnya
+              <img src="./assets/icons/arrow-right.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="card col-6 col-md-3 col-lg-2">
+          <img src="./assets/images/LLDIKTI-img.png" class="card-img-top" alt="..." />
+          <span class="position-absolute translate-middle badge">
+            Berita
+          </span>
+          <div class="card-body">
+            <h5 class="card-title">
+              Undangan Technical Meeting Gebyar LLDIKTI Wilayah IV
+            </h5>
+
+            <a href="#" class="btn btn-more">Baca Selengkapnya
+              <img src="./assets/icons/arrow-right.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="card col-6 col-md-3 col-lg-2">
+          <img src="./assets/images/LLDIKTI-img.png" class="card-img-top" alt="..." />
+          <span class="position-absolute translate-middle badge">
+            Berita
+          </span>
+          <div class="card-body">
+            <h5 class="card-title">
+              Undangan Technical Meeting Gebyar LLDIKTI Wilayah IV
+            </h5>
+
+            <a href="#" class="btn btn-more">Baca Selengkapnya
+              <img src="./assets/icons/arrow-right.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="card col-6 col-md-3 col-lg-2">
+          <img src="./assets/images/LLDIKTI-img.png" class="card-img-top" alt="..." />
+          <span class="position-absolute translate-middle badge">
+            Berita
+          </span>
+          <div class="card-body">
+            <h5 class="card-title">
+              Undangan Technical Meeting Gebyar LLDIKTI Wilayah IV
+            </h5>
+
+            <a href="#" class="btn btn-more">Baca Selengkapnya
+              <img src="./assets/icons/arrow-right.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="card col-6 col-md-3 col-lg-2">
+          <img src="./assets/images/LLDIKTI-img.png" class="card-img-top" alt="..." />
+          <span class="position-absolute translate-middle badge">
+            Berita
+          </span>
+          <div class="card-body">
+            <h5 class="card-title">
+              Undangan Technical Meeting Gebyar LLDIKTI Wilayah IV
+            </h5>
+
+            <a href="#" class="btn btn-more">Baca Selengkapnya
+              <img src="./assets/icons/arrow-right.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="card col-6 col-md-3 col-lg-2">
+          <img src="./assets/images/LLDIKTI-img.png" class="card-img-top" alt="..." />
+          <span class="position-absolute translate-middle badge">
+            Berita
+          </span>
+          <div class="card-body">
+            <h5 class="card-title">
+              Undangan Technical Meeting Gebyar LLDIKTI Wilayah IV
+            </h5>
+
+            <a href="#" class="btn btn-more">Baca Selengkapnya
+              <img src="./assets/icons/arrow-right.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="card col-6 col-md-3 col-lg-2">
+          <img src="./assets/images/LLDIKTI-img.png" class="card-img-top" alt="..." />
+          <span class="position-absolute translate-middle badge">
+            Berita
+          </span>
+          <div class="card-body">
+            <h5 class="card-title">
+              Undangan Technical Meeting Gebyar LLDIKTI Wilayah IV
+            </h5>
+
+            <a href="#" class="btn btn-more">Baca Selengkapnya
+              <img src="./assets/icons/arrow-right.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link arrow" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link active" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link arrow" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+      <div class="row justify-content-center bg-card position-absolute">
+        <span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Layanan Online -->
+  <section class="layanan-online">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <p class="text-center">Lorem Ipsum</p>
+          <h2 class="text-center">Layanan Online</h2>
+        </div>
+      </div>
+      <div class="row carousel carousel-dark slide">
+        <div class="col-12">
+          <div class="carousel carousel-dark slide" id="cardCarousel" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row justify-content-center">
+                  <div class="card col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="100">
+                    <img src="./assets/icons/paper.svg" class="card-img-top" alt="..." />
+
+                    <div class="card-body">
+                      <h5 class="card-title">SPTJM Online</h5>
+
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit ut aliquam, purus sit amet luctus venenatis
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="200">
+                    <img src="./assets/icons/book.svg" class="card-img-top" alt="..." />
+
+                    <div class="card-body">
+                      <h5 class="card-title">Digilibrary</h5>
+
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit ut aliquam, purus sit amet luctus venenatis
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="300">
+                    <img src="./assets/icons/paper.svg" class="card-img-top" alt="..." />
+
+                    <div class="card-body">
+                      <h5 class="card-title">Jurnal LLDIKTI</h5>
+
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit ut aliquam, purus sit amet luctus venenatis
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="400">
+                    <img src="./assets/icons/book.svg" class="card-img-top" alt="..." />
+
+                    <div class="card-body">
+                      <h5 class="card-title">Buletin LLDIKTI</h5>
+
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit ut aliquam, purus sit amet luctus venenatis
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <form class="d-flex col-md-4 justify-content-end" role="search">
-                <i class="fa fa-search icon"></i>
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Cari Informasi"
-                  aria-label="Search"
-                />
-              </form>
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="card col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="100">
+                    <img src="./assets/icons/paper.svg" class="card-img-top" alt="..." />
+
+                    <div class="card-body">
+                      <h5 class="card-title">SPTJM Offline</h5>
+
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit ut aliquam, purus sit amet luctus venenatis
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="200">
+                    <img src="./assets/icons/book.svg" class="card-img-top" alt="..." />
+
+                    <div class="card-body">
+                      <h5 class="card-title">Digilibrary</h5>
+
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit ut aliquam, purus sit amet luctus venenatis
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="300">
+                    <img src="./assets/icons/paper.svg" class="card-img-top" alt="..." />
+
+                    <div class="card-body">
+                      <h5 class="card-title">Jurnal LLDIKTI</h5>
+
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit ut aliquam, purus sit amet luctus venenatis
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="400">
+                    <img src="./assets/icons/book.svg" class="card-img-top" alt="..." />
+
+                    <div class="card-body">
+                      <h5 class="card-title">Buletin LLDIKTI</h5>
+
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit ut aliquam, purus sit amet luctus venenatis
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <!-- Card -->
-        <div class="row justify-content-center card-section">
-          <div class="card col-6 col-md-3 col-lg-2">
-            <img
-              src="./assets/images/LLDIKTI-img.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <span class="position-absolute translate-middle badge">
-              Berita
-            </span>
-            <div class="card-body">
-              <h5 class="card-title">
-                Undangan Technical Meeting Gebyar LLDIKTI Wilayah IV
-              </h5>
+        <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
 
-              <a href="#" class="btn btn-more"
-                >Baca Selengkapnya
-                <img src="./assets/icons/arrow-right.svg" alt=""
-              /></a>
-            </div>
-          </div>
-          <div class="card col-6 col-md-3 col-lg-2">
-            <img
-              src="./assets/images/LLDIKTI-img.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <span class="position-absolute translate-middle badge">
-              Berita
-            </span>
-            <div class="card-body">
-              <h5 class="card-title">
-                Undangan Technical Meeting Gebyar LLDIKTI Wilayah IV
-              </h5>
-
-              <a href="#" class="btn btn-more"
-                >Baca Selengkapnya
-                <img src="./assets/icons/arrow-right.svg" alt=""
-              /></a>
-            </div>
-          </div>
-          <div class="card col-6 col-md-3 col-lg-2">
-            <img
-              src="./assets/images/LLDIKTI-img.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <span class="position-absolute translate-middle badge">
-              Berita
-            </span>
-            <div class="card-body">
-              <h5 class="card-title">
-                Undangan Technical Meeting Gebyar LLDIKTI Wilayah IV
-              </h5>
-
-              <a href="#" class="btn btn-more"
-                >Baca Selengkapnya
-                <img src="./assets/icons/arrow-right.svg" alt=""
-              /></a>
-            </div>
-          </div>
-          <div class="card col-6 col-md-3 col-lg-2">
-            <img
-              src="./assets/images/LLDIKTI-img.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <span class="position-absolute translate-middle badge">
-              Berita
-            </span>
-            <div class="card-body">
-              <h5 class="card-title">
-                Undangan Technical Meeting Gebyar LLDIKTI Wilayah IV
-              </h5>
-
-              <a href="#" class="btn btn-more"
-                >Baca Selengkapnya
-                <img src="./assets/icons/arrow-right.svg" alt=""
-              /></a>
-            </div>
-          </div>
-          <div class="card col-6 col-md-3 col-lg-2">
-            <img
-              src="./assets/images/LLDIKTI-img.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <span class="position-absolute translate-middle badge">
-              Berita
-            </span>
-            <div class="card-body">
-              <h5 class="card-title">
-                Undangan Technical Meeting Gebyar LLDIKTI Wilayah IV
-              </h5>
-
-              <a href="#" class="btn btn-more"
-                >Baca Selengkapnya
-                <img src="./assets/icons/arrow-right.svg" alt=""
-              /></a>
-            </div>
-          </div>
-          <div class="card col-6 col-md-3 col-lg-2">
-            <img
-              src="./assets/images/LLDIKTI-img.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <span class="position-absolute translate-middle badge">
-              Berita
-            </span>
-            <div class="card-body">
-              <h5 class="card-title">
-                Undangan Technical Meeting Gebyar LLDIKTI Wilayah IV
-              </h5>
-
-              <a href="#" class="btn btn-more"
-                >Baca Selengkapnya
-                <img src="./assets/icons/arrow-right.svg" alt=""
-              /></a>
-            </div>
-          </div>
-          <div class="card col-6 col-md-3 col-lg-2">
-            <img
-              src="./assets/images/LLDIKTI-img.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <span class="position-absolute translate-middle badge">
-              Berita
-            </span>
-            <div class="card-body">
-              <h5 class="card-title">
-                Undangan Technical Meeting Gebyar LLDIKTI Wilayah IV
-              </h5>
-
-              <a href="#" class="btn btn-more"
-                >Baca Selengkapnya
-                <img src="./assets/icons/arrow-right.svg" alt=""
-              /></a>
-            </div>
-          </div>
+  <!-- Section Layanan Kami -->
+  <section class="layanan-kami">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-6 col-lg-6">
+          <img src="./assets/images/casual-life-3d-24-hd.png" alt="">
         </div>
-        <ul class="pagination justify-content-center">
-          <li class="page-item">
-            <a class="page-link arrow" href="#" aria-label="Previous">
-              <span aria-hidden="true">&laquo;</span>
-            </a>
-          </li>
-          <li class="page-item"><a class="page-link active" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link arrow" href="#" aria-label="Next">
-              <span aria-hidden="true">&raquo;</span>
-            </a>
-          </li>
-        </ul>
-        <div class="row justify-content-center bg-card position-absolute">
-          <span></span>
+        <div class="col-6 col-lg-6 services">
+          <p class="subtitle">Lorem Ipsum</p>
+          <h2 class="title">Layanan Kami</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis</p>
+          <div class="row services-content">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-md-1">
+                  <img class="img-checkbox" src="./assets/icons/checkbox.svg" alt="">
+                </div>
+                <div class="col-md-11 content-wrap">
+                  <p>Pelayanan Validasi Ijazah Bagi PTS yang Sudah Tidak Beroperasi atau Tutup</p>
+                </div>
+                <div class="col-md-1">
+                  <img class="img-checkbox" src="./assets/icons/checkbox.svg" alt="">
+                </div>
+                <div class="col-md-11 content-wrap">
+                  <p>Standar Pelayanan Mutasi Mahasiswa</p>
+                </div>
+                <div class="col-md-1">
+                  <img class="img-checkbox" src="./assets/icons/checkbox.svg" alt="">
+                </div>
+                <div class="col-md-11 content-wrap">
+                  <p>Pelayanan Penilaian Angka Kredit Jabatan Akademik Dosen Asisten Ahli dan Lektor</p>
+                </div>
+                <div class="col-md-1">
+                  <img class="img-checkbox" src="./assets/icons/checkbox.svg" alt="">
+                </div>
+                <div class="col-md-11 content-wrap">
+                  <p>Pelayanan Rekomendasi Perubahan Nama Badan Penyelenggara Perguruan Tinggi Swasta</p>
+                </div>
+                <div class="col-md-1">
+                  <img class="img-checkbox" src="./assets/icons/checkbox.svg" alt="">
+                </div>
+                <div class="col-md-11 content-wrap">
+                  <p>Pelayanan Rekomendasi Usulan Jabatan Akademik Dosen Lektor Kepala dan Profesor</p>
+                </div>
+                <div class="col-md-1">
+                  <img class="img-checkbox" src="./assets/icons/checkbox.svg" alt="">
+                </div>
+                <div class="col-md-11 content-wrap">
+                  <p>Pelayanan Rekomendasi Alih Kelola Perguruan Tinggi Swasta</p>
+                </div>
+                <div class="col-md-1">
+                  <img class="img-checkbox" src="./assets/icons/checkbox.svg" alt="">
+                </div>
+                <div class="col-md-11 content-wrap">
+                  <p>Pelayanan Rekomendasi Pendirian Perguruan Tinggi Swasta Baru</p>
+                </div>
+                <div class="col-md-1">
+                  <img class="img-checkbox" src="./assets/icons/checkbox.svg" alt="">
+                </div>
+                <div class="col-md-11 content-wrap">
+                  <p>Rekomendasi Pembukaan Program Studi Baru PTS</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
-    </section>
+  </section>
 
-    <!-- Section Layanan Online -->
-    <section class="layanan-online">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-12">
-            <p class="text-center">Lorem Ipsum</p>
-            <h2 class="text-center">Layanan Online</h2>
-          </div>
+  <!-- Helpdesk -->
+  <section class="helpdesk">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-6 col-md-6 helpdesk-content">
+          <p>Layanan LLDIKTI</p>
+          <h5>Butuh Bantuan?</h5>
+          <p>Layanan LLDIKTI siap membantu anda</p>
+          <a href="" class="btn btn-contact">Kontak Kami
+          </a>
         </div>
-        <div class="row justify-content-center">
-          <div
-            class="card col-6 col-md-3 col-lg-2"
-            data-aos="fade-up"
-            data-aos-duration="100"
-          >
-            <img
-              src="./assets/icons/paper.svg"
-              class="card-img-top"
-              alt="..."
-            />
+        <div class="col-6 col-md-6">
+          <img class="" src="./assets/images/casual-life-3d-man-chatting-on-dating-site 1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <div class="card-body">
-              <h5 class="card-title">SPTJM Online</h5>
-
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                aliquam, purus sit amet luctus venenatis
-              </p>
+  <!-- Sebaran PT -->
+  <section class="sebaran-pt">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <h3 class="text-center">Sebaran Perguruan Tinggi</h3>
+        </div>
+        <div class="col-12">
+          <div class="row count-pt">
+            <div class="col-2">
+              <h1 class="text-center">98</h1>
+              <p class="text-center">Universitas</p>
             </div>
-          </div>
-          <div
-            class="card col-6 col-md-3 col-lg-2"
-            data-aos="fade-up"
-            data-aos-duration="200"
-          >
-            <img src="./assets/icons/book.svg" class="card-img-top" alt="..." />
-
-            <div class="card-body">
-              <h5 class="card-title">Digilibrary</h5>
-
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                aliquam, purus sit amet luctus venenatis
-              </p>
+            <div class="col-2">
+              <h1 class="text-center">19</h1>
+              <p class="text-center">Institut</p>
             </div>
-          </div>
-          <div
-            class="card col-6 col-md-3 col-lg-2"
-            data-aos="fade-up"
-            data-aos-duration="300"
-          >
-            <img
-              src="./assets/icons/paper.svg"
-              class="card-img-top"
-              alt="..."
-            />
-
-            <div class="card-body">
-              <h5 class="card-title">Jurnal LLDIKTI</h5>
-
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                aliquam, purus sit amet luctus venenatis
-              </p>
+            <div class="col-2">
+              <h1 class="text-center">202</h1>
+              <p class="text-center">Sekolah Tinggi</p>
             </div>
-          </div>
-          <div
-            class="card col-6 col-md-3 col-lg-2"
-            data-aos="fade-up"
-            data-aos-duration="400"
-          >
-            <img src="./assets/icons/book.svg" class="card-img-top" alt="..." />
-
-            <div class="card-body">
-              <h5 class="card-title">Buletin LLDIKTI</h5>
-
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                aliquam, purus sit amet luctus venenatis
-              </p>
+            <div class="col-2">
+              <h1 class="text-center">84</h1>
+              <p class="text-center">Akademi</p>
+            </div>
+            <div class="col-2">
+              <h1 class="text-center">41</h1>
+              <p class="text-center">Politeknik</p>
+            </div>
+            <div class="col-2">
+              <h1 class="text-center">5</h1>
+              <p class="text-center">Akademi Komunitas</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Javascript -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+    </div>
+  </section>
+  <!-- Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
