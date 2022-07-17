@@ -2,6 +2,7 @@
 
 html {
   height: 100%;
+
 }
 
 * {
@@ -13,16 +14,19 @@ body {
   background: linear-gradient(245.04deg,
       rgba(83, 178, 198, 0.33) 29.95%,
       rgba(113, 132, 230, 0) 108.91%);
+  background-attachment: fixed;
 }
 
 /* Section Top Nav */
 .section {
   background-color: #64b7c8;
-  padding: 15px 0 15px 0;
+  padding: 10px 0;
 }
 
-.contact {
-  margin-right: 18px;
+
+
+.contact a {
+  text-decoration: none;
 }
 
 .contact span {
@@ -33,13 +37,9 @@ body {
 }
 
 .socmed-icon {
-  /* Kalo mau rata kanan */
-  /* padding-right: 16px; */
+  justify-content: flex-end;
 }
 
-.section .logo {
-  display: none;
-}
 
 section {
   margin-top: 40px;
@@ -48,10 +48,6 @@ section {
 
 
 /* Navbar */
-.navbar-div {
-  /* Kalo mau rata kanan */
-  /* margin-left: 23px; */
-}
 
 .navbar-brand {
   max-width: 80%;
@@ -102,18 +98,11 @@ section {
 
 
 
-.toggler-icon {
-  background: url('https://api.iconify.design/akar-icons/three-line-horizontal.svg?color=%23f24e1e') no-repeat center;
-  padding-left: 20px;
-
-}
 
 
 
 /* Hero */
-.header {
-  margin-top: 80px;
-}
+
 
 .header .headline {
   margin-top: 24px;
@@ -129,7 +118,7 @@ section {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-
+  margin-bottom: 4px;
   color: #000000;
 }
 
@@ -612,40 +601,96 @@ section {
 
 }
 
+
+
+
 /* MOBILE */
-@media (max-width: 768px) {
-  .contact {
-    display: none;
+@media (min-width: 318px) {
+  .section {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
   }
 
-  .section .logo {
-    display: block;
+  .socmed-icon {
+    justify-content: flex-start;
   }
 
-  .section .logo img {
-    max-width: 150%;
-    height: auto;
+
+  .nav {
+    margin-top: 60px;
   }
 
-  .section .socmed-icon .s-icon {
-    justify-content: center;
+  .nav .navbar {
+    margin-left: 0;
+    align-items: flex-start;
+  }
+
+  .nav .navbar a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+
+  .btn-toggler img {
+    width: 20px;
+    height: 20px;
+  }
+
+
+
+  .collapse .navbar {
     display: flex;
-    align-items: center;
+    flex-direction: column;
   }
 
-  .nav .navbar-brand {
+
+  .header {
+    margin-top: 20px;
+  }
+
+  .header .headline .welcome {
+    font-size: 18px;
+  }
+
+  .header .headline h2 {
+    font-size: 24px;
+  }
+
+  .header .headline h3 {
+    font-size: 20px;
+  }
+
+  .header .headline.description {
+    font-size: 10px;
+  }
+
+  .header .btn-play {
+    margin-left: 16px;
+  }
+
+  .information p {
+    font-size: 16px;
+  }
+
+  .information h2 {
+    font-size: 24px;
+  }
+
+
+  .information .btn-group button {
+    width: 150px;
+  }
+
+  .information .bg-card {
     display: none;
   }
 
-  .nav .row {
-    justify-content: end;
+  .layanan-online .carousel-control-next-icon {
+    margin-left: 14px;
   }
-
-  .btn-toggler {
-    width: 50px !important;
-
-  }
-
 
   /* .collapse:not(show) {
     display: none;
@@ -654,5 +699,69 @@ section {
 
 
 
+
+}
+
+@media (min-width: 768px) {
+
+  .socmed-icon {
+    justify-content: flex-end;
+  }
+
+  .nav .md-btn a {
+
+    color: #ffffff !important;
+    background-color: #ffac70;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 15px;
+    line-height: 16px;
+    text-align: center;
+    padding: 6px 16px;
+
+  }
+
+  .collapse .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav .navbar {
+    margin-left: 78px;
+    align-items: center;
+  }
+
+  .header {
+    margin-top: 80px;
+  }
+
+  .header .welcome {
+    font-size: 20px !important;
+  }
+
+  .header h2 {
+    font-size: 44px !important;
+  }
+
+  .header h3 {
+    font-size: 32px !important;
+  }
+
+  .header .description {
+    font-size: 16px !important;
+  }
+
+  .information p {
+
+    font-size: 16px !important;
+
+  }
+
+  .information h2 {
+
+    font-size: 41px !important;
+
+
+  }
 
 }
