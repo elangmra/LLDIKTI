@@ -40,13 +40,6 @@ body {
   justify-content: flex-end;
 }
 
-
-section {
-  margin-top: 40px;
-}
-
-
-
 /* Navbar */
 
 .navbar-brand {
@@ -231,7 +224,6 @@ section {
   font-weight: 600;
   font-size: 14px;
   padding: 8px 28px;
-  text-align: center;
   border-radius: 10px;
   color: #ababab;
 }
@@ -242,6 +234,7 @@ section {
 
 .information form {
   position: relative;
+
 }
 
 .information form i {
@@ -373,9 +366,6 @@ section {
 }
 
 /* Layanan ONline Section */
-.layanan-online {
-  margin-top: 84px;
-}
 
 .layanan-online p {
   font-style: normal;
@@ -432,9 +422,7 @@ section {
 }
 
 /* Layanan Kami */
-.layanan-kami {
-  margin-top: 84px;
-}
+
 
 .layanan-kami .subtitle {
   font-style: normal;
@@ -481,8 +469,8 @@ section {
 
 .layanan-kami .services-content p {
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 16px;
   color: #468A98;
 }
 
@@ -497,10 +485,6 @@ section {
 .helpdesk img {
   width: 100%;
   padding-top: 20px;
-}
-
-.helpdesk .helpdesk-content {
-  padding-left: 96px;
 }
 
 .helpdesk .helpdesk-content p {
@@ -528,8 +512,8 @@ section {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  margin-top: 45px;
-  padding: 16px 120px;
+  margin-top: 20px;
+  padding: 16px 0px;
 }
 
 
@@ -540,7 +524,6 @@ section {
 }
 
 .sebaran-pt h3 {
-  margin-top: 34px;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -574,9 +557,6 @@ section {
 }
 
 /* Videos Section */
-.videos {
-  margin-top: 60px;
-}
 
 .videos p {
   font-style: normal;
@@ -601,7 +581,65 @@ section {
 
 }
 
+.videos .sub-videos iframe {
+  width: 100%;
+  margin-top: 8px;
 
+
+}
+
+.videos .sub-videos .videos-card {
+  width: 25.5% !important;
+  margin-left: 0 !important;
+  margin-right: 28px;
+  padding-bottom: 12px;
+}
+
+.videos .sub-videos .videos-card .body-card img {
+  padding: 0;
+  width: 150%;
+  margin-left: 8px;
+  height: auto;
+}
+
+.videos .sub-videos .videos-card .body-card span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #929292;
+  width: auto;
+  align-self: center;
+  padding: 0;
+}
+
+.videos .sub-videos .videos-card .body-card .btn {
+  border-radius: 20px;
+  background-color: rgba(100, 183, 200, 0.43);
+  color: #468A98;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  justify-self: end;
+  display: flex;
+  padding: 4px 16px;
+}
+
+.videos .sub-videos .body-card p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0;
+  color: #5C5C5C;
+  margin: 0 14px;
+  padding-left: 16px;
+}
+
+.videos .sub-videos .body-card .time p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  color: #CDCDCD;
+}
 
 
 /* MOBILE */
@@ -612,6 +650,11 @@ section {
     right: 0;
     left: 0;
     z-index: 1030;
+  }
+
+  section {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .socmed-icon {
@@ -647,16 +690,12 @@ section {
   }
 
 
-  .header {
-    margin-top: 20px;
-  }
-
   .header .headline .welcome {
     font-size: 18px;
   }
 
   .header .headline h2 {
-    font-size: 24px;
+    font-size: 36px;
   }
 
   .header .headline h3 {
@@ -676,33 +715,74 @@ section {
   }
 
   .information h2 {
-    font-size: 24px;
+    font-size: 36px;
   }
 
+  .information span {
+    font-size: 14px;
+  }
 
   .information .btn-group button {
-    width: 150px;
+    width: 130px;
   }
 
-  .information .bg-card {
-    display: none;
+  .layanan-online p {
+    font-size: 16px;
   }
 
-  .layanan-online .carousel-control-next-icon {
+  .layanan-online h2 {
+    font-size: 36px;
+  }
+
+  .layanan-online .carousel .carousel-control-next span {
     margin-left: 14px;
   }
 
-  /* .collapse:not(show) {
-    display: none;
-  } */
+  .layanan-kami .subtitle {
+    font-size: 16px;
+  }
 
+  .layanan-kami h2 {
+    font-size: 36px;
+  }
 
+  .layanan-kami .services-content p {
+    font-size: 14px;
+  }
 
+  .helpdesk .container {
+    width: 90%;
+  }
 
+  .helpdesk .helpdesk-content p {
+    font-size: 16px;
+  }
 
+  .helpdesk .helpdesk-content h5 {
+    font-size: 36px;
+  }
+
+  .helpdesk .helpdesk-content .btn-contact {
+    font-size: 16px;
+  }
+
+  .sebaran-pt .container {
+    width: 90%;
+  }
+
+  .videos .videos-card {
+    width: 100% !important;
+  }
 }
 
+
+
+
 @media (min-width: 768px) {
+  section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 
   .socmed-icon {
     justify-content: flex-end;
@@ -716,7 +796,6 @@ section {
     font-weight: 600;
     border-radius: 15px;
     line-height: 16px;
-    text-align: center;
     padding: 6px 16px;
 
   }
@@ -728,12 +807,9 @@ section {
 
   .nav .navbar {
     margin-left: 78px;
-    align-items: center;
   }
 
-  .header {
-    margin-top: 80px;
-  }
+
 
   .header .welcome {
     font-size: 20px !important;
@@ -752,16 +828,50 @@ section {
   }
 
   .information p {
-
     font-size: 16px !important;
-
   }
 
   .information h2 {
-
     font-size: 41px !important;
-
-
   }
 
+  .layanan-online p {
+    font-size: 16px;
+  }
+
+  .layanan-online h2 {
+    font-size: 41px;
+  }
+
+  .layanan-kami .subtitle {
+    font-size: 16px;
+  }
+
+  .layanan-kami h2 {
+    font-size: 41px;
+  }
+
+  .layanan-kami .services-content p {
+    font-size: 16px;
+  }
+
+  .helpdesk .helpdesk-content p {
+    font-size: 20px;
+  }
+
+  .helpdesk .helpdesk-content h5 {
+    font-size: 45px;
+  }
+
+  .helpdesk .helpdesk-content .btn-contact {
+    font-size: 20px;
+  }
+
+  .sebaran-pt h3 {
+    font-size: 24px;
+  }
+
+  .videos .videos-card {
+    width: 25.5% !important;
+  }
 }
