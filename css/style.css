@@ -700,7 +700,84 @@ body {
   --bs-list-group-border-width: 0px;
 }
 
+.testimonials .testimonials-content p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ABABAB;
+}
 
+.testimonials .testimonials-content .title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  color: #468A98;
+}
+
+.testimonials .testimonials-content .count-testimonials h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #468A98;
+}
+
+.testimonials .testimonials-content .count-testimonials p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ABABAB;
+}
+
+.testimonials .quote .carousel {
+  background: rgba(242, 249, 250, 0.54);
+  border-radius: 20px;
+
+}
+
+.testimonials .quote .carousel .carousel-inner {
+  background: #FFFFFF;
+  border-radius: 20px;
+  height: 100%;
+  display: grid;
+  align-self: center;
+  height: 85%;
+  width: 90%;
+  justify-self: center;
+}
+
+.testimonials .quote .carousel .carousel-inner .row .col-12 h2 {
+  margin: 24px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #797979;
+}
+
+.testimonials .quote .carousel .carousel-inner .row .profile-testimonials h2 {
+  font-style: normal;
+  padding-top: 12px;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #468A98;
+}
+
+.testimonials .quote .carousel .carousel-inner .row .profile-testimonials p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ABABAB;
+}
+
+footer {
+  background: #3C3C3C;
+}
 
 /* MOBILE */
 @media (min-width: 318px) {
@@ -863,6 +940,7 @@ body {
 
   .faq .question-block button {
     font-size: 14px;
+    margin-left: 14px;
   }
 }
 
