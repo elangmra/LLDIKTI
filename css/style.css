@@ -15,6 +15,7 @@ body {
       rgba(83, 178, 198, 0.33) 29.95%,
       rgba(113, 132, 230, 0) 108.91%);
   background-attachment: fixed;
+
 }
 
 /* Section Top Nav */
@@ -778,6 +779,7 @@ body {
 .subscribe {
   position: absolute;
   left: 105px;
+  z-index: 1;
 }
 
 .subscribe .subscribe-container {
@@ -831,7 +833,6 @@ footer {
   background: #3C3C3C;
   position: relative;
   display: flex;
-  z-index: -1;
   top: 200px;
 }
 
@@ -890,6 +891,52 @@ footer .footer-wrap .copyright {
 
 }
 
+.headline h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #468A98;
+}
+
+.headline h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #468A98;
+  margin-top: 6px;
+
+}
+
+.headline .breadcrumb .breadcrumb-item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #468A98;
+  margin-left: 5px;
+}
+
+.headline .breadcrumb .breadcrumb-item img {
+  margin-right: 5px;
+  margin-bottom: 6px;
+}
+
+.headline .breadcrumb .breadcrumb-item a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #468A98;
+
+}
+
+.headline nav {
+  margin-top: 12px;
+}
+
 /* MOBILE */
 @media (min-width: 318px) {
   .section {
@@ -897,7 +944,7 @@ footer .footer-wrap .copyright {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030;
+    z-index: 1;
   }
 
   section {
@@ -907,11 +954,13 @@ footer .footer-wrap .copyright {
 
   .socmed-icon {
     justify-content: flex-start;
+
   }
 
 
   .nav {
     margin-top: 60px;
+
   }
 
   .nav .navbar {
@@ -1230,10 +1279,21 @@ footer .footer-wrap .copyright {
   footer {
     position: relative;
   }
+
+  footer .footer-wrap {
+    padding-top: 180px;
+  }
+
 }
 
 @media (min-width:1000px) {
   .subscribe {
     left: 105px;
+
   }
+
+  footer .footer-wrap {
+    padding-top: 300px;
+  }
+
 }
