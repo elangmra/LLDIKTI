@@ -29,3 +29,43 @@
     width: 100%;
     padding: 8px;
 }
+
+.profile-content-section .wrapper {
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.profile-content-section h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #468A98;
+
+}
+
+.profile-content-section h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4E4E4E;
+}
+
+.profile-content-section p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+
+    letter-spacing: 0.01em;
+
+    color: #ABABAB;
+
+}
+
+.profile-content-section .btn-wrap {
+    background: rgba(190, 190, 190, 0.12);
+    border-radius: 20px;
+}

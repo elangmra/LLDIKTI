@@ -1,0 +1,209 @@
+.contact-section .search-btn form {
+    width: 100%;
+    position: relative;
+}
+
+.contact-section .search-btn i {
+    color: #cdcdcd;
+    left: 24px;
+    top: 14px;
+    position: absolute
+}
+
+.contact-section .search-btn input {
+    background: #FFFFFF;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 12px 0 12px 64px;
+}
+
+.contact-section .search-btn input::placeholder {
+
+    color: #CDCDCD;
+}
+
+.contact-section .wrapper {
+    background: #F4F4F4;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04),
+        0px 8px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+
+.contact-section .wrapper h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+
+    color: #468A98;
+
+}
+
+.contact-wrap {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.contact-wrap h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-bottom: 4px;
+    color: #505050;
+}
+
+.contact-wrap p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 6px;
+    letter-spacing: 0.03em;
+
+    color: #ABABAB;
+    margin-bottom: 0;
+}
+
+.pengaduan-wrap {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 28px;
+}
+
+.pengaduan-wrap h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 24px;
+    color: #4E4E4E;
+}
+
+.pengaduan-wrap img {
+    padding-top: 14px;
+}
+
+.pengaduan-wrap p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+    color: #ABABAB;
+}
+
+.pengaduan-wrap .btn {
+    background: #F4F4F4;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    width: 100%;
+    text-transform: capitalize;
+    padding: 10px 12px;
+
+    color: #949494;
+
+}
+
+.contact-section .maps iframe {
+    border-radius: 20px;
+}
+
+.layanan-lldikti p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    margin-bottom: 8px;
+    color: #ABABAB;
+}
+
+.layanan-lldikti h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+
+    color: #468A98;
+}
+
+.layanan-lldikti .btn {
+    background: #468A98;
+    border-radius: 20px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    padding: 12px 24px;
+    margin-top: 48px;
+    color: #FFFFFF;
+
+}
+
+.layanan-lldikti .btn:hover {
+    background: #468A98;
+    border-radius: 20px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    padding: 12px 24px;
+    margin-top: 48px;
+    color: #FFFFFF;
+    --bs-btn-color: #468A98;
+
+
+}
+
+.contact-section .medsos-wrapper {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 12px 6px;
+}
+
+.medsos-wrapper a {
+    text-decoration: none;
+}
+
+.medsos-wrapper h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+
+    color: #505050;
+
+}
+
+.medsos-wrapper p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #ABABAB;
+}

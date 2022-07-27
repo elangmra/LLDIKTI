@@ -48,7 +48,7 @@ body {
 }
 
 .navbar {
-  margin-left: 78px;
+
   list-style: none;
   margin-top: 2px;
 }
@@ -1124,11 +1124,11 @@ footer .footer-wrap .copyright {
   }
 
   .subscribe {
-    left: 0px;
+    position: static;
   }
 
-  footer {
-    position: unset;
+  footer .footer-wrap {
+    padding-top: 90px;
   }
 
 }
@@ -1163,9 +1163,7 @@ footer .footer-wrap .copyright {
     flex-direction: row;
   }
 
-  .nav .navbar {
-    margin-left: 78px;
-  }
+  .nav .navbar {}
 
 
 
@@ -1289,6 +1287,7 @@ footer .footer-wrap .copyright {
 @media (min-width:1000px) {
   .subscribe {
     left: 105px;
+    position: absolute;
 
   }
 
