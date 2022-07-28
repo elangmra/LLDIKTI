@@ -80,13 +80,13 @@
 
 }
 
-.akuntabilitas-content {
+/* .akuntabilitas-content {
     width: 48% !important;
-}
+} */
 
-.akuntabilitas .col-lg-4 {
+/* .akuntabilitas .col-lg-4 {
     width: 32%;
-}
+} */
 
 .files {
     background: #FFFFFF;
@@ -125,5 +125,25 @@
 
 
     color: #ABABAB;
+
+}
+
+@media(min-width:346px) {
+    .akuntabilitas .col-lg-4 {
+        width: 42%;
+    }
+
+
+}
+
+@media(min-width:992px) {
+    .akuntabilitas .col-lg-4 {
+        width: 32%;
+    }
+
+    .akuntabilitas-content {
+        width: 48% !important;
+    }
+
 
 }

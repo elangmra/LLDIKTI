@@ -11,6 +11,7 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
 </head>
 
 <body>
@@ -68,6 +69,7 @@
         </div>
     </div>
 
+
     <!-- Navbar -->
     <section class="nav" data-aos="fade-down">
         <div class="container">
@@ -102,6 +104,9 @@
                                 <li>
                                     <a class="dropdown-item" href="./profile.html">Profil Kepala LLDIKTI 4</a>
                                 </li>
+                                <li>
+                                    <a class="dropdown-item" href="./layanan-online.html">Layanan Online</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item  d-lg-none">
@@ -110,20 +115,17 @@
                         <li class="nav-item  d-lg-none ">
                             <a class="nav-link" href="./profile.html">Profil Kepala LLDIKTI4</a>
                         </li>
+                        <li class="nav-item  d-lg-none ">
+                            <a class="nav-link" href="./layanan-online.html">Layanan Online</a>
+                        </li>
                         <li class="nav-item ">
                             <a class="nav-link" href="./news.html">Info Berita</a>
                         </li>
+
                         <li class="nav-item ">
-                            <a class="nav-link" href="./layanan-online.html">Layanan Informasi</a>
+                            <a class="nav-link" href="./akuntabilitas.html">Akuntabilitas</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href=""><img class="img-fluid" src="assets/icons/search-icon.svg"
-                                    alt="" /></a>
-                        </li>
-                        <li class="nav-item d-none">
-                            <a class="nav-link" href=""><img class="img-fluid" src="assets/icons/darkmode-icon.svg"
-                                    alt="" /></a>
-                        </li>
+
                         <li class="nav-item d-md-none d-lg-block">
                             <a href="./contact.html" class="btn nav-link">Kontak & Pengaduan</a>
                         </li>
@@ -160,7 +162,7 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-10">
-                    <div class="row wrapper p-5">
+                    <div class="row wrapper p-3 p-lg-5 mx-1">
                         <div class="col-lg-12">
                             <h5 class="text-center">Sambutan
                                 Kepala Lembaga Layanan Pendidikan Tinggi (LLDIKTI) Wilayah IV, Jawa Barat dan Banten​
@@ -327,7 +329,7 @@
                                 Pendidikan Tinggi.</p>
                         </div>
                         <div class="col-12 d-flex justify-content-center">
-                            <img class="w-90 py-3" src="./assets/images/profile-city.png" alt="">
+                            <img class="w-100 py-3" src="./assets/images/profile-city.png" alt="">
                         </div>
                         <div class="col-12">
                             <h5 class="text-center mt-5">Layanan LLDIKTI 4</h5>
@@ -348,27 +350,270 @@
                         </div>
                         <div class="col-12 mt-3">
                             <div class="row d-flex justify-content-center">
-                                <div class="col-5 d-flex justify-content-center btn-wrap">
-                                    <a href="" class="btn">Fungsi</a>
-                                    <a href="" class="btn">Tugas</a>
+                                <div class="col-12 col-md-6 col-lg-5 d-flex justify-content-center btn-wrap">
+
+                                    <input type="radio" class="btn-check" name="options" id="fungsiToggle"
+                                        autocomplete="off" checked value="tugas">
+                                    <label class="btn btn-toggle " for="fungsiToggle" data-bs-toggle="collapse"
+                                        href="#fungsiToggle" role="button" aria-expanded="false"
+                                        aria-controls="fungsiToggle">Fungsi</label>
+
+                                    <input type="radio" class="btn-check" name="options" id="tugasToggle"
+                                        autocomplete="off" value="fungsi">
+                                    <label class="btn btn-toggle " for="tugasToggle" data-bs-toggle="collapse"
+                                        href="#tugasToggle" role="button" aria-expanded="false"
+                                        aria-controls="tugasToggle">Tugas</label>
+
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-12 mt-3  collapse contentCollapse show" id="fungsiToggle">
+                            <div class="row ">
+                                <div class="col-12 fungsi">
+                                    <div class="row d-flex align-items-center p-4">
+                                        <div class="col-1">
+                                            <h1 class="text-center mb-0">1</h1>
+                                        </div>
+                                        <div class="col-11">
+                                            <p class="mb-0 mt-2 mt-md-0">
+
+                                                Merumuskan kebijakan pengawasan, pengendalian, dan pembinaan perguruan
+                                                tinggi swasta
+                                                di wilayah kerjanya berdasarkan
+                                                kebijakan Direktur Jenderal;
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 fungsi">
+                                    <div class="row d-flex align-items-center p-4">
+                                        <div class="col-1">
+                                            <h1 class="text-center mb-0">2</h1>
+                                        </div>
+                                        <div class="col-11">
+                                            <p class="mb-0 mt-2 mt-md-0">
+                                                Melaksanakan koordinasi dalam rangka pengawasan, pengendalian, dan
+                                                pembinaan perguruan tinggi swasta di wilayah
+                                                kerjanya;
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 fungsi">
+                                    <div class="row d-flex align-items-center p-4">
+                                        <div class="col-1">
+                                            <h1 class="text-center mb-0">3</h1>
+                                        </div>
+                                        <div class="col-11">
+                                            <p class="mb-0 mt-2 mt-md-0">
+                                                Melaksanakan koordinasi pelaksanaan pemantauan dan evaluasi
+                                                penyelenggaraan. pendidikan, penelitian, dan pengabdian
+                                                kepada masyarakat pada perguruan tinggi swasta di wilayah kerjanya dan
+                                                wilayah pengembangannya;
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 fungsi">
+                                    <div class="row d-flex align-items-center p-4">
+                                        <div class="col-1">
+                                            <h1 class="text-center mb-0">4</h1>
+                                        </div>
+                                        <div class="col-11">
+                                            <p class="mb-0 mt-2 mt-md-0">
+                                                Melaksanakan koordinasi dalam rangka pembinaan ketenagaan perguruan
+                                                tinggi swasta
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 fungsi">
+                                    <div class="row d-flex align-items-center p-4">
+                                        <div class="col-1">
+                                            <h1 class="text-center mb-0">5</h1>
+                                        </div>
+                                        <div class="col-11">
+                                            <p class="mb-0 mt-2 mt-md-0">
+                                                Melaksanakan kerja sama dalam rangka pengawasan, pengendalian, dan
+                                                pembinaan perguruan tinggi swasta di wilayah
+                                                kerjanya;
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 fungsi">
+                                    <div class="row d-flex align-items-center p-4">
+                                        <div class="col-1">
+                                            <h1 class="text-center mb-0">6</h1>
+                                        </div>
+                                        <div class="col-11">
+                                            <p class="mb-0 mt-2 mt-md-0">
+                                                Melaksanakan dan koordinasi pengernbangan perguruan tinggi swasta di
+                                                wilayah kerjanya.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3 collapse contentCollapse " id="tugasToggle">
+                            <div class="row ">
+                                <div class="col-12 fungsi">
+                                    <div class="row d-flex align-items-center p-4">
+                                        <div class="col-1">
+                                            <h1 class="text-center mb-0">A</h1>
+                                        </div>
+                                        <div class="col-11">
+                                            <p class="mb-0 mt-2 mt-md-0">
+                                                Pelaksanaan pemetaan mutu pendidikan tinggi di wilayah kerjanya;
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 fungsi">
+                                    <div class="row d-flex align-items-center p-4">
+                                        <div class="col-1">
+                                            <h1 class="text-center mb-0">B</h1>
+                                        </div>
+                                        <div class="col-11">
+                                            <p class="mb-0 mt-2 mt-md-0">
+                                                Pelaksanaan fasilitasi peningkatan mutu penyelenggaraan pendidikan
+                                                tinggi di wilayah kerjanya;
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 fungsi">
+                                    <div class="row d-flex align-items-center p-4">
+                                        <div class="col-1">
+                                            <h1 class="text-center mb-0">C</h1>
+                                        </div>
+                                        <div class="col-11">
+                                            <p class="mb-0 mt-2 mt-md-0">
+                                                Pelaksanaan fasilitasi peningkatan mutu pengelolaan perguruan tinggi di
+                                                wilayah kerjanya;
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 fungsi">
+                                    <div class="row d-flex align-items-center p-4">
+                                        <div class="col-1">
+                                            <h1 class="text-center mb-0">D</h1>
+                                        </div>
+                                        <div class="col-11">
+                                            <p class="mb-0 mt-2 mt-md-0">
+                                                Pelaksanaan fasilitasi kesiapan perguruan tinggi dalam penjaminan mutu
+                                                eksternal di wilayah kerjanya;
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 fungsi">
+                                    <div class="row d-flex align-items-center p-4">
+                                        <div class="col-1">
+                                            <h1 class="text-center mb-0">E</h1>
+                                        </div>
+                                        <div class="col-11">
+                                            <p class="mb-0 mt-2 mt-md-0">
+                                                Pelaksanaan evaluasi dan pelaporan pelaksanaan fasilitasi peningkatan
+                                                mutu perguruan tinggi di wilayah kerjanya;
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 fungsi">
+                                    <div class="row d-flex align-items-center p-4">
+                                        <div class="col-1">
+                                            <h1 class="text-center mb-0">F</h1>
+                                        </div>
+                                        <div class="col-11">
+                                            <p class="mb-0 mt-2 mt-md-0">
+                                                Pengelolaan data dan informasi di bidang mutu pendidikan tinggi di
+                                                wilayah kerjanya; dan
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 fungsi">
+                                    <div class="row d-flex align-items-center p-4">
+                                        <div class="col-1">
+                                            <h1 class="text-center mb-0">G</h1>
+                                        </div>
+                                        <div class="col-11">
+                                            <p class="mb-0 mt-2 mt-md-0">
+                                                Pelaksanaan administrasi LLDIKTI.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 mt-5">
+                            <h5 class="text-center mt-5">Layanan LLDIKTI 4</h5>
+                        </div>
+                        <div class="col-12">
+                            <h2 class="text-center mt-3">
+                                Struktur Organisasi
+                            </h2>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <img class="w-100" src="./assets/images/STRUKTUR-ORGANISASI-Permendikbud1 1.png" alt="">
+                        </div>
+                        <div class="col-12 mt-3">
+                            <img class="w-100" src="./assets/images/STRUKTUR-ORGANISASI-Upaya-Percepatan1 1.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
 
     <!-- Subscribe section -->
     <section class="subscribe ">
         <div class="container">
             <div class="row justify-content-lg-center justify-content-start subscribe-container">
-                <div class="col-5 col-lg-5 subcribe-img d-none d-lg-block">
+                <div class="col-5 col-xl-5 subcribe-img d-none d-xl-block">
                     <img src="./assets/images/casual-life-3d-excited-young-woman-receiving-like-notifications-on-her-laptop 1.png"
                         alt="">
                 </div>
-                <div class="col-12 col-lg-7 subscribe-content d-flex align-items-center">
+                <div class="col-12 col-xl-7 subscribe-content d-flex align-items-center">
                     <div class="row  ms-md-3 subscribe-wrapper">
                         <div class="col-12">
                             <h2>Lebih Dekat Dengan Kami Dengan Berlangganan Kabar Berita Terbaru</h2>
@@ -377,9 +622,9 @@
                             <form class="position-relative d-flex align-items-center pb-4" role="search">
                                 <i class="fa fa-lg fa-envelope pt-lg-0 "></i>
                                 <input class="email-input" type="email" placeholder="Enter your email">
+
                                 <button type="submit"> Subscribe</button>
                             </form>
-
                         </div>
                     </div>
                 </div>
@@ -507,15 +752,28 @@
             </div>
         </div>
     </footer>
-
     <!-- Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
         AOS.init();
     </script>
+    <script>
+        $(document).ready(function () {
+            $("input[name$='options']").click(function () {
+                var test = $(this).val();
+
+                // $("div.contentCollapse").hide();
+                $(".show").removeClass("show");
+
+            });
+        });
+    </script>
+
 </body>
 
 </html>

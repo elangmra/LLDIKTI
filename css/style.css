@@ -215,9 +215,6 @@ body {
   margin-top: 8px;
 }
 
-.information .dropdown .btn-group {
-  margin-right: 24px;
-}
 
 .information .dropdown .btn {
   background-color: #fcfcfc;
@@ -902,7 +899,7 @@ footer .footer-wrap .copyright {
 .headline h2 {
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 38px;
   line-height: 58px;
   color: #468A98;
   margin-top: 6px;
@@ -1284,7 +1281,7 @@ footer .footer-wrap .copyright {
 
 }
 
-@media (min-width:1000px) {
+@media (min-width:1200px) {
   .subscribe {
     left: 105px;
     position: absolute;

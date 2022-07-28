@@ -69,3 +69,61 @@
     background: rgba(190, 190, 190, 0.12);
     border-radius: 20px;
 }
+
+.btn-wrap .btn-toggle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 8px 4px 8px;
+    width: 70%;
+    color: #005D71;
+
+}
+
+.btn-check:active+.btn,
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:active {
+
+
+    color: #FFFFFF !important;
+    background-color: #005D71 !important;
+
+}
+
+.fungsi {
+    background: #F7F7F7;
+    border-radius: 20px;
+}
+
+.fungsi h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 26px;
+    /* or 54% */
+
+    letter-spacing: 0.01em;
+
+    color: #468A98;
+}
+
+.fungsi p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.01em;
+
+    color: #505050;
+}
+
+.profile-content-section span {
+    font-weight: bold;
+}
