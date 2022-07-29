@@ -39,7 +39,7 @@
     line-height: 48px;
     letter-spacing: 0.03em;
 
-    color: #468A98;
+    color: #294B97;
 
 }
 
@@ -115,7 +115,7 @@
     text-transform: capitalize;
     padding: 10px 12px;
 
-    color: #949494;
+    color: #294B97;
 
 }
 
@@ -140,11 +140,11 @@
     line-height: 48px;
     letter-spacing: 0.03em;
 
-    color: #468A98;
+    color: #294B97;
 }
 
 .layanan-lldikti .btn {
-    background: #468A98;
+    background: #294B97;
     border-radius: 20px;
     width: 100%;
     font-style: normal;
@@ -159,7 +159,7 @@
 }
 
 .layanan-lldikti .btn:hover {
-    background: #468A98;
+    background: #294B97;
     border-radius: 20px;
     width: 100%;
     font-style: normal;
@@ -170,7 +170,7 @@
     padding: 12px 24px;
     margin-top: 48px;
     color: #FFFFFF;
-    --bs-btn-color: #468A98;
+    --bs-btn-color: #294B97;
 
 
 }

@@ -92,7 +92,7 @@ body {
     line-height: 19px;
     text-align: center;
 
-    color: #FFFFFF;
+    color: #3067df;
 }
 
 .header .btn {
@@ -127,6 +127,13 @@ body {
     color: #FFFFFF;
 }
 
+.triangle-img {
+    z-index: -1;
+    position: absolute;
+    top: 564px;
+    left: 640px;
+}
+
 .hero-img-wrap {
     z-index: -1;
     position: relative;
@@ -149,6 +156,8 @@ body {
 
     color: #294B97;
 }
+
+
 
 .layanan-online .btn-more {
     font-style: normal;
@@ -391,9 +400,384 @@ body {
     background-color: #ffffff;
 }
 
+.sebaran-pt .container {
+    background-color: #FFF;
+    border-radius: 0px;
+}
+
+.sebaran-pt p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ABABAB;
+}
+
+.sebaran-pt h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #294B97;
+}
+
+.sebaran-pt .btn-more {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #294B97;
+    border-radius: 30px;
+    color: #294B97;
+    padding: 15px 32px;
+}
+
+.sebaran-pt .count-pt h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    color: #294B97;
+
+    margin-bottom: 0;
+}
+
+.sebaran-pt .count-pt p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #3C3C3C;
+}
+
+.gallery-section {
+    background: #F2F2F2;
+}
+
+.gallery-section p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ABABAB;
+}
+
+.gallery-section h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #294B97;
+}
+
+.gallery-section .btn-more {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #294B97;
+    border-radius: 30px;
+    color: #294B97;
+    padding: 15px 32px;
+}
+
+.videos .title-section p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ABABAB;
+}
+
+.videos .title-section h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #294B97;
+}
+
+.videos .btn-more {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #294B97;
+    border-radius: 30px;
+    color: #294B97;
+    padding: 15px 32px;
+}
+
+.videos iframe {
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.videos .sub-videos .videos-card {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 28px;
+    padding-bottom: 12px;
+}
+
+.videos .card {
+    margin-top: 0px;
+    border-radius: 20px !important;
+    padding-left: 14px;
+    padding-right: 14px;
+
+    margin-left: 0px;
+}
+
+.videos-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    margin-bottom: 2px;
+
+    color: #000000;
+
+}
+
+.videos-description {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #5C5C5C;
+}
+
+.videos-duration {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+
+    color: #7C7C7C;
+}
+
+.faq {
+    background: #F2F2F2;
+}
+
+.faq .col-lg-12 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ABABAB;
+}
+
+.faq .col-lg-12 h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #294B97;
+}
+
+.faq .search-form i {
+    color: #294B97;
+    top: 10px;
+    left: 30px;
+    position: relative;
+}
+
+.faq .search-form form input {
+    border-radius: 20px;
+    border: 1.5px solid #294B97;
+    color: #294B97;
+}
+
+.faq .search-form form input::placeholder {
+    color: #294B97;
+}
+
+.testimonials .testimonials-content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* or 154% */
+
+
+    color: #ABABAB;
+
+}
+
+.testimonials .testimonials-content .title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #294B97;
+}
+
+.testimonials .testimonials-content .count-testimonials h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #294B97;
+}
+
+.testimonials .testimonials-content .count-testimonials p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #ABABAB;
+
+}
+
+.testimonials .quote .carousel {
+    background: rgba(41, 75, 151, 0.12);
+    border-radius: 20px;
+
+}
+
+.testimonials .quote .carousel .carousel-inner .row .col-12 h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #797979;
+}
+
+.testimonials .quote .carousel .carousel-inner .row .profile-testimonials h2 {
+    font-style: normal;
+    padding-top: 12px;
+    margin-bottom: 0;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #294B97;
+}
+
+.testimonials .quote .carousel .carousel-inner .row .profile-testimonials p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #ABABAB;
+}
+
+.subscribe .subscribe-container {
+    background: linear-gradient(260.68deg, #64A8F8 -0.75%, #FFFFFF 100.69%);
+    border-radius: 20px;
+}
+
+.subscribe .subscribe-content .row h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #294B97;
+}
+
+.subscribe img {
+    width: 120%;
+}
+
+.subscribe form {
+    width: 100%;
+}
+
+.subscribe .subscribe-content .row input {
+    background: transparent;
+    border: 3px solid #294B97;
+    border-radius: 20px;
+    padding: 12px 0 12px 64px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    width: 100%;
+    color: #294B97;
+}
+
+.subscribe .subscribe-content .row input::placeholder {
+
+    color: #294B97;
+}
+
+.subscribe .subscribe-content .row i {
+    position: absolute;
+    color: #294B97;
+    left: 24px;
+}
+
+.subscribe .subscribe-content .row button {
+    margin-left: 20px;
+    background: #294B97;
+    border: 3px solid #294B97;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 12px 28px;
+    color: #D6F8FF;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .videos .main-videos iframe {
+        width: 100%;
+    }
+
+
+}
+
 @media(min-width:992px) {
+    .header .description {
+
+
+        color: #ffffff;
+    }
+
     .information .col-lg-4 {
         width: 30%;
         margin-left: 8px;
+    }
+
+    .card {
+
+        margin-left: 18px;
+    }
+
+    .subscribe .subscribe-content .row h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+
+        color: #294B97;
+    }
+
+    .subscribe .subscribe-content .row button {
+        width: 110%;
+    }
+}
+
+@media(min-width:992px) {
+    .videos .main-videos iframe {
+        height: 600px;
     }
 }

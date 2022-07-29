@@ -267,12 +267,12 @@ body {
 
 
 .card {
-  margin-top: 34px !important;
+  margin-top: 34px;
   border-radius: 20px !important;
-  padding-left: 14px !important;
-  padding-right: 14px !important;
+  padding-left: 14px;
+  padding-right: 14px;
   width: 14rem !important;
-  margin-left: 18px !important;
+
 }
 
 .card .card-img-top {
@@ -555,13 +555,7 @@ body {
 
 /* Videos Section */
 
-.videos p {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  color: #ABABAB;
-  margin-bottom: 4px;
-}
+
 
 .videos h2 {
   font-style: normal;
@@ -586,7 +580,7 @@ body {
 }
 
 .videos .sub-videos .videos-card {
-  width: 25.5% !important;
+  width: 25.5%;
   margin-left: 0 !important;
   margin-right: 28px;
   padding-bottom: 12px;
@@ -894,15 +888,21 @@ footer .footer-wrap .copyright {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  color: #468A98;
+  /* identical to box height */
+
+
+  color: #294B97;
 }
 
 .headline h2 {
   font-style: normal;
   font-weight: 600;
-  font-size: 38px;
+  font-size: 48px;
   line-height: 58px;
-  color: #468A98;
+  /* identical to box height */
+
+
+  color: #294B97;
   margin-top: 6px;
 
 }
@@ -910,9 +910,10 @@ footer .footer-wrap .copyright {
 .headline .breadcrumb .breadcrumb-item {
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
-  color: #468A98;
+
+  color: #294B97;
   margin-left: 5px;
 }
 
@@ -924,10 +925,11 @@ footer .footer-wrap .copyright {
 .headline .breadcrumb .breadcrumb-item a {
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
 
-  color: #468A98;
+  color: #294B97;
+
 
 }
 
@@ -1229,9 +1231,17 @@ footer .footer-wrap .copyright {
     font-size: 74px;
   }
 
+  .card {
+    margin-top: 34px;
+    border-radius: 20px !important;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 14rem !important;
+    margin-left: 18px;
+  }
 
   .videos .videos-card {
-    width: 25.5% !important;
+    width: 25.5%;
   }
 
   .videos .main-videos iframe {

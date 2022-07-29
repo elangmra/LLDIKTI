@@ -12,8 +12,8 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 39px;
-    color: #468A98;
 
+    color: #294B97;
 }
 
 
@@ -22,8 +22,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-    color: #468A98;
-    border: 2px solid #468A98;
+
+    color: #294B97;
+    border: 2px solid #294B97;
     border-radius: 20px;
     margin-top: 12px;
     width: 100%;
@@ -40,7 +41,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: #468A98;
+    color: #294B97;
 
 }
 
@@ -79,7 +80,13 @@
     border-radius: 10px;
     margin: 8px 4px 8px;
     width: 70%;
-    color: #005D71;
+    color: #294B97;
+
+}
+
+.btn-wrap .btn-toggle:focus {
+    border: 0px #294B97;
+    color: #294B97;
 
 }
 
@@ -91,7 +98,7 @@
 
 
     color: #FFFFFF !important;
-    background-color: #005D71 !important;
+    background-color: #294B97 !important;
 
 }
 
@@ -109,7 +116,7 @@
 
     letter-spacing: 0.01em;
 
-    color: #468A98;
+    color: #294B97;
 }
 
 .fungsi p {
