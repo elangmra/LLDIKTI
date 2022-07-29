@@ -288,10 +288,7 @@ body {
     color: #294B97;
 }
 
-.information .col-lg-4 {
-    width: 30%;
-    margin-left: 8px;
-}
+
 
 .information .side-information h2 {
     font-style: normal;
@@ -392,4 +389,11 @@ body {
 .helpdesk .helpdesk-content .btn-contact:hover {
     color: #294B97;
     background-color: #ffffff;
+}
+
+@media(min-width:992px) {
+    .information .col-lg-4 {
+        width: 30%;
+        margin-left: 8px;
+    }
 }
