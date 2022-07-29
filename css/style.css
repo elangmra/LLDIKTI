@@ -66,6 +66,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
+
 }
 
 .nav-item .nav-link {
@@ -380,7 +381,7 @@ body {
 }
 
 .layanan-online .card {
-  height: 16rem !important;
+  height: 16rem;
 }
 
 .layanan-online .card-img-top {
@@ -1169,7 +1170,7 @@ footer .footer-wrap .copyright {
   }
 
   .header h2 {
-    font-size: 44px !important;
+    font-size: 44px;
   }
 
   .header h3 {
@@ -1185,7 +1186,7 @@ footer .footer-wrap .copyright {
   }
 
   .information h2 {
-    font-size: 41px !important;
+    font-size: 41px;
   }
 
   .layanan-online p {
